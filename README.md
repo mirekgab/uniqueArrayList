@@ -1,5 +1,5 @@
 # uniqueArrayList
-an example implementation of how to remove duplicates from the list of arrays
+an example implementation of how to remove duplicates from the ArrayList
 
 How run:
 1. clone repository:
