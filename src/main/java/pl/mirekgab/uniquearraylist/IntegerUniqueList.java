@@ -9,15 +9,15 @@ public class IntegerUniqueList {
     
     public void uniqueList() {
         ArrayList<Integer> list = new ArrayList(Arrays.asList(1,2,3,2,4,5,3,6,7));
-        printList(list);
-        ArrayList<Integer> uniqueList = new ArrayList(new HashSet<>(list));
-        printList(uniqueList);
+        printList("list with duplicates", list);
+        ArrayList<Integer> uniqueList = new ArrayList(new HashSet(list));
+        printList("list without duplicates", uniqueList);
     }
     
-    private void printList(ArrayList<Integer> list1) {
-        System.out.println("");
-        list1.forEach(e -> {
-            System.out.println(e);
-        });
-    }    
+    private void printList(String info, ArrayList<Integer> list) {
+        System.out.println("\n"+info);
+        list.forEach(e -> {
+            System.out.printf("%d ",e);
+        });        
+    }   
 }
