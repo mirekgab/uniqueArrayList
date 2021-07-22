@@ -8,4 +8,4 @@ How run:
 2. enter into uniqueArrayList directory
 3. execute command:
   <pre>mvn compile
-mvn exec:java -Dexec.mainClass=pl.mirekgab.uniqueArrayList.Main</pre>
+mvn exec:java -Dexec.mainClass=pl.mirekgab.uniquearraylist.Main</pre>
